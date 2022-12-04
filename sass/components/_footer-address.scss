@@ -1,0 +1,45 @@
+.footer__address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--fourth-color);
+    margin-bottom: 9px;
+    margin-top: 20px;
+
+
+    &>.list:hover {
+        color: #2196F3;
+    }
+
+    &-item {
+        margin-bottom: 9px;
+        font-style: normal;
+    }
+}
+
+
+.footer__email {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__tel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-info {
+    width: 231px;
+    display: flex;
+    flex-wrap: wrap;
+}

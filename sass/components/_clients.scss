@@ -1,0 +1,45 @@
+.customers__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color);
+    margin-bottom: 50px;
+}
+
+.companies {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+    &-link {
+        width: 100%;
+        height: 100%;
+        padding: 16px 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #AFB1B8;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &-link:hover,
+    &-link:focus {
+        color: var(--third-color);
+        border: 1px solid var(--third-color);
+    }
+}
+
+.company {
+    fill: currentColor;
+}
+
+
+.companies__item {
+    flex-basis: calc((100% - 150px) / 6);
+    justify-content: center;
+
+}
